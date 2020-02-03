@@ -1,0 +1,63 @@
+html{
+	background-color: white;
+
+}
+body{
+	 font-family:italic;
+	 font-size: 18px;
+	 line-height: 1.5cm;  
+}
+h1{
+	text-align: center;
+	padding-top: 20px;
+	text-transform: uppercase;
+	color: red;
+}
+#header img{
+	height: 150px;
+	
+	position: absolute;
+	top: 30px;
+    }
+#header ul{
+	float: right;
+	margin-top: 25px; 
+}
+#header ul li{
+	display: inline;
+	margin-right: 20px;
+}
+#header ul li a{
+	color: green;
+	text-decoration: none;
+	font-size: 18px;
+	font-style: italic;
+}
+#header ul li a input[type=text] {
+  float: right;
+  padding: 16px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 28px;
+  width:400px;
+  height: 33px;
+}
+  #header ul li a input[type=text] {
+    border: 1px solid #ccc;
+  }
+#image{
+	width: 100%;
+	
+}
+#image h2{
+	color: red;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 50px;
+	font-size: 50px;
+	text-align: center;
+	
+}
+
+

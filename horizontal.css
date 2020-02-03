@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+}
+html,body{
+	height: 99%;
+}
+.container{
+	height: 100%;
+	overflow: auto;
+	white-space: nowrap;
+}
+.home{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-image: url("img/rohit.jpg");
+	background-color: blue;
+	background-size:cover;
+	animation-name: shewag;
+	animation-duration: 5s;
+	animation-iteration-count:2;
+	animation-delay: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+@keyframes shewag{
+
+	0%{
+		background-image: url("img/indian.jpg");
+		height: 100%;
+	}
+	50%{
+		background-image: url("img/tulips.jpg");
+		height: 80%;
+		width: 80%;
+	}
+
+
+.display{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-image: url("img/dhoni.jpg");
+	background-color: red;
+	background-size: cover;
+	}
+.gallery{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-image: url("img/download.jpg");
+	background-color: purple;
+	background-size: cover;
+}
+.query{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-image: url("img/offers.jpg");
+	background-color: yellow;
+	background-size: cover;
+}
+.aboutus{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-image: url("img/indian.jpg");
+	background-color: green;
+	background-size: cover;
+}
+nav{
+	height: 100%;
+	text-align: : center;
+	margin-top: 25px;
+	position: fixed;
+	padding: 20px 30px;
+	color: red;
+	z-index: 1;
+}
+nav a{
+	margin-left: 20px;
+	text-decoration: none;
+	font-style: italic;
+	font-size: 28px;
+	color: grey;
+}
+nav a:hover{
+	background-color: green;
+} 

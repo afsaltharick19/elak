@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>trans</title>
+	<link rel="stylesheet" type="text/css" href="trans.css">
+	<link rel="stylesheet" href="D:\afsal\fontawesome-free-5.11.2-web\css\all.css">
+</head>
+<body>
+	
+<div class="topnav" id="myTopnav">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div>
+	<video autoplay muted loop id="myVideo">
+  <source src="letter.mp4" type="video/mp4">
+</video>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>

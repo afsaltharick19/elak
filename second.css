@@ -1,0 +1,30 @@
+ul{
+	width: 10%;
+	height: 600px;
+	padding: 20px ;
+	overflow: hidden;
+	background-color: purple;
+	position: absolute;
+	list-style: none;
+}
+
+li{
+	float:none;
+	padding: 30px 0px;
+
+}
+
+li a{
+	position: absolute;
+	padding: 20px 20px;
+width:100px;
+
+	background-color: orange;
+	text-decoration: none;
+
+}
+	li a:hover{
+		background-color: brown;
+		color: blue;
+		cursor: pointer;
+	}

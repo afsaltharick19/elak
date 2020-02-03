@@ -1,0 +1,23 @@
+ul{
+	width: 100%;
+	padding: 20px;
+	overflow: hidden;
+	background-color: purple;
+	position: absolute;
+	list-style: none;
+
+}
+
+li{
+	float:left;
+}
+
+li a{
+	text-decoration: none;
+	padding: 20px 30px;
+	background-color: orange;
+}
+li a:hover{
+	color: green;
+	background-color: grey;
+}

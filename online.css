@@ -1,0 +1,130 @@
+#topbar{
+	background-color: black;
+	height: 10px;
+	width: 100%
+}
+body{
+	background-color: white;
+}
+#container{
+	/*background-color: red;*/
+	height: 700px;
+	width: 70%;
+	margin: 0px auto;
+}
+#header{
+	height: 80px;
+	background-color: white;
+}
+#header img{
+	height: 80px;
+}
+
+
+#header ul{
+	float: right;
+	margin-top: 25px; 
+}
+#header ul li{
+	display: inline;
+	margin-right: 20px;
+}
+#header ul li a{
+	color: grey;
+	text-decoration: none;
+	font-size: 18px;
+	font-style: italic;
+}
+#banner img{
+	width: 100%;
+	padding-bottom: 20px;
+}
+/*#banner2 img{
+	width: 100%;
+	padding-bottom: 20px;
+}
+#banner3 img{
+	width: 100%;
+	padding-bottom: 20px;
+}
+#banner4 img{
+	width: 100%;
+	padding-bottom: 20px;
+}*/	
+#content1{
+	width: 32%;
+	height: 350px;
+	background-color: yellow;
+	float: left;
+	margin-right: 2%;
+
+}
+#content2{
+	width: 32%;
+	height: 350px;
+	background-color: blue;
+	float: left;
+}
+#content3{
+	width: 32%;
+	height: 350px;
+	background-color: green;
+	float: right;
+}
+/*@media only screen and (max-width:900px){
+/*body{
+	background-color: yellow;
+}
+}*/
+/*@media only screen and (max-width:600px){
+body{
+	background-color: green;
+}
+}
+@media only screen and (max-width:500px){
+body{*/
+	/*background-color: red;*/
+/*}
+}*/
+.heading{
+	color: white;
+	margin left: 20px;
+	font-size: 28px;
+	font-style: italic;
+}
+.para1{
+	color: black;
+	margin-left: 20px;
+	/*font-size: 28px;*/
+	font-style: italic;
+}
+#header ul li a:hover{
+	background-color: red;
+}
+
+#footer{
+	height: 60px;
+	width: 100%;
+	background-color: black;
+	clear: both;
+}
+#footer ul{
+	float: left;
+	margin-top: 25px; 
+}
+#footer ul li{
+	display: inline;
+	margin-right: 20px;
+}
+#footer ul li a{
+	color: grey;
+	text-decoration: none;
+	font-size: 18px;
+	font-style: italic;
+}
+#footer p{
+	color: pink;
+	float: right;
+	font-size: 28px;
+	font-style: italic;
+}

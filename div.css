@@ -1,0 +1,90 @@
+.home{
+
+	width: 100%;
+	height: 100%;
+
+}
+.login{
+
+
+	width: 100%;
+	height: 100%;
+	background-color: pink;
+	border-color: transparent;
+    background-image:url("img/jellyfish.jpg"); 
+background-size: cover;
+}
+.register{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	border-color:green; 
+    background-image:url("img/tulips.jpg");
+background-size: cover;
+background-attachment: fixed;}
+.callus{
+	width: 100%;
+	height: 100%;
+	background-color: #d31afa;
+	border-color: transparent;
+    background-image: url("img/lighthouse.jpg");
+background-size: cover;
+}
+
+.reachus{
+	width:100%;
+	height: 100%;
+	background-color:red;
+	border-color: transparent;
+background-image: url("img/koala.jpg");
+background-size: cover;
+background-attachment: fixed;}
+.pingus{
+	width:100%;
+	height: 100%;
+	background-color: purple;
+	border-color: transparent;
+background-image: url("img/hydrangeas.jpg");
+background-size: cover;}
+  nav{
+  	position: fixed;
+  	top: 0%;
+  	width: 100%;
+  	background-color:transparent;
+  	text-align: center;
+  	z-index: 1;
+
+  }
+nav a{
+      padding: 20px 30px;
+      position: relative;;
+      display: inline-block;  
+}
+
+*{
+	scroll-behavior: smooth;}
+
+nav a:hover{
+	background-color: red;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+html{
+     width: 100%;
+     height: 100%;
+	}
+body{
+	width: 100%;
+	height: 100%;
+	background-color: pink
+}
